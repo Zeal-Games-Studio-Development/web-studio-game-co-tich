@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cổ Tích Studio | Kiến Tạo Huyền Thoại</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">Về Chúng Tôi</a>
+        <a href="#realms">Dự Án</a>
+        <a href="#tech">Công Nghệ</a>
+        <a href="#careers">Tuyển Dụng</a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="premium-nav" id="mainNav">
+        <div class="nav-wrapper">
+            <div class="nav-brand"><a href="index.html">CỔ TÍCH STUDIO</a></div>
+            <div class="nav-links">
+                <a href="#about" class="nav-item">Về Chúng Tôi</a>
+                <a href="#realms" class="nav-item">Dự Án</a>
+                <a href="#tech" class="nav-item">Công Nghệ</a>
+                <a href="#careers" class="nav-item">Tuyển Dụng</a>
+            </div>
+            <div class="nav-action">
+                <button class="btn-ghost magnetic-btn">LIÊN HỆ</button>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ============================================================
+             HERO — Cinematic Multi-Layer Parallax
+             ============================================================ -->
+        <section class="hero">
+            <!-- Parallax Background Layers -->
+            <div class="hero-bg-layer layer-back" style="background-image: url('assets/hero.png');" data-parallax-speed="0.3"></div>
+            <div class="hero-bg-layer layer-mid"></div>
+            <div class="hero-bg-layer layer-front"></div>
+
+            <!-- Floating Particles -->
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+
+            <!-- SVG Ornamental Decorations -->
+            <div class="hero-ornament left">
+                <svg viewBox="0 0 60 300" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 0 L30 300 M20 30 Q30 15 40 30 M20 60 Q30 45 40 60 M20 90 Q30 75 40 90 M15 120 C25 110 35 110 45 120 M15 150 C25 140 35 140 45 150 M20 180 Q30 165 40 180 M20 210 Q30 195 40 210 M20 240 Q30 225 40 240 M20 270 Q30 255 40 270" stroke="currentColor" fill="none" stroke-width="1" opacity="0.4"/>
+                    <circle cx="30" cy="15" r="4" opacity="0.6"/>
+                    <circle cx="30" cy="135" r="6" opacity="0.4"/>
+                    <circle cx="30" cy="285" r="4" opacity="0.6"/>
+                    <path d="M22 130 L30 120 L38 130 L30 140 Z" opacity="0.5"/>
+                </svg>
+            </div>
+            <div class="hero-ornament right">
+                <svg viewBox="0 0 60 300" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 0 L30 300 M20 30 Q30 15 40 30 M20 60 Q30 45 40 60 M20 90 Q30 75 40 90 M15 120 C25 110 35 110 45 120 M15 150 C25 140 35 140 45 150 M20 180 Q30 165 40 180 M20 210 Q30 195 40 210 M20 240 Q30 225 40 240 M20 270 Q30 255 40 270" stroke="currentColor" fill="none" stroke-width="1" opacity="0.4"/>
+                    <circle cx="30" cy="15" r="4" opacity="0.6"/>
+                    <circle cx="30" cy="135" r="6" opacity="0.4"/>
+                    <circle cx="30" cy="285" r="4" opacity="0.6"/>
+                    <path d="M22 130 L30 120 L38 130 L30 140 Z" opacity="0.5"/>
+                </svg>
+            </div>
+
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <div class="text-reveal-container">
+                    <h2 class="sub-heading">A NEXT-GEN GAME DEVELOPMENT STUDIO</h2>
+                    <h1 class="master-heading split-text">CRAFTING<br>MYTHS</h1>
+                </div>
+            </div>
+
+            <div class="hero-scroll-prompt">
+                <span class="scroll-line"></span>
+                <span class="scroll-text">Khám Phá</span>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             STUDIO INTRO — Philosophy & Stats
+             ============================================================ -->
+        <section class="studio-info-section" id="about">
+            <div class="container">
+                <!-- Ornamental Divider -->
+                <div class="ornament-divider fade-in">
+                    <span class="line"></span>
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 2 L26 14 L38 16 L29 25 L31 38 L20 32 L9 38 L11 25 L2 16 L14 14 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+                        <circle cx="20" cy="20" r="4"/>
+                    </svg>
+                    <span class="line"></span>
+                </div>
+
+                <div class="studio-intro">
+                    <h2 class="section-title fade-in">Nghệ Thuật Kể Chuyện<br>Phương Đông</h2>
+                    <p class="lead-text fade-in stagger-1">
+                        Cổ Tích Studio là mái nhà của các nghệ sĩ, kỹ sư và những người đam mê kiến tạo thế giới. Chúng tôi mang trong mình ngọn lửa nhiệt huyết để đưa thần thoại Á Đông lên một tầm cao mới, kết hợp thẩm mỹ tối thượng và lối chơi AAA đột phá.
+                    </p>
+                    <div class="stats-grid fade-in stagger-2">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-label">Nhân sự tài năng</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="4">0</span>
+                            <span class="stat-label">Dự án AAA</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count-text="UE5">UE5</span>
+                            <span class="stat-label">Engine cốt lõi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             GAME REALMS — 4 Mythology Worlds
+             ============================================================ -->
+        <section class="realms-section" id="realms">
+
+            <!-- REALM 1: Sơn Tinh Thủy Tinh — Mountain & Ocean -->
+            <div class="realm realm-mountain" data-realm="mountain">
+                <div class="realm-bg">
+                    <img src="assets/viet_myth.png" alt="Sơn Tinh Thủy Tinh" class="realm-bg-image" data-parallax-speed="0.15">
+                </div>
+                <div class="realm-content">
+                    <div class="realm-info">
+                        <span class="realm-tag slide-left">In Development</span>
+                        <h2 class="realm-title slide-left stagger-1">Sơn Tinh<br>Thủy Tinh</h2>
+                        <p class="realm-desc slide-left stagger-2">Trải nghiệm cuộc đại chiến giữa Tản Viên Sơn Thánh và Thủy Tề Long Vương trong thế giới mở souls-like đầy khốc liệt. Mỗi lựa chọn sẽ định đoạt vận mệnh trời đất.</p>
+                        <div class="realm-meta slide-left stagger-3">
+                            <div class="realm-meta-item">
+                                Genre
+                                <span>Souls-like Action RPG</span>
+                            </div>
+                            <div class="realm-meta-item">
+                                Origin
+                                <span>Thần thoại Việt</span>
+                            </div>
+                        </div>
+                        <a href="detail.html" class="btn-line magnetic-btn slide-left stagger-4">Khám Phá Thế Giới</a>
+                    </div>
+                    <div class="realm-artwork scale-in">
+                        <img src="assets/viet_myth.png" alt="Sơn Tinh Thủy Tinh Artwork">
+                        <div class="corner-ornament top-left"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z M0 0 L0 0" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament top-right"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z M0 0 L0 0" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament bottom-left"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z M0 0 L0 0" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament bottom-right"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z M0 0 L0 0" /><circle cx="15" cy="15" r="2"/></svg></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REALM 2: Tây Du: Huyết Chiến — Fire & Fury -->
+            <div class="realm realm-fire" data-realm="fire">
+                <div class="realm-bg">
+                    <img src="assets/china_myth.png" alt="Tây Du Huyết Chiến" class="realm-bg-image" data-parallax-speed="0.15">
+                </div>
+                <div class="realm-content">
+                    <div class="realm-info">
+                        <span class="realm-tag slide-left">Pre-Alpha</span>
+                        <h2 class="realm-title slide-left stagger-1">Tây Du<br>Huyết Chiến</h2>
+                        <p class="realm-desc slide-left stagger-2">Con đường Tây Trúc nhuốm đỏ máu yêu quái. Tôn Ngộ Không dẫn dắt cuộc chiến chưa từng có trong lịch sử thần thoại Trung Hoa, nơi mỗi nhát gậy là một tầng trời sụp đổ.</p>
+                        <div class="realm-meta slide-left stagger-3">
+                            <div class="realm-meta-item">
+                                Genre
+                                <span>Hack & Slash Action</span>
+                            </div>
+                            <div class="realm-meta-item">
+                                Origin
+                                <span>Tây Du Ký</span>
+                            </div>
+                        </div>
+                        <a href="taydu.html" class="btn-line magnetic-btn slide-left stagger-4">Khám Phá Thế Giới</a>
+                    </div>
+                    <div class="realm-artwork scale-in">
+                        <img src="assets/china_myth.png" alt="Tây Du Huyết Chiến Artwork">
+                        <div class="corner-ornament top-left"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament top-right"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament bottom-left"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament bottom-right"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REALM 3: Hồng Bàng Kỷ Nguyên — Ancient Earth -->
+            <div class="realm realm-earth" data-realm="earth">
+                <div class="realm-bg">
+                    <img src="assets/viet_myth_2.png" alt="Hồng Bàng Kỷ Nguyên" class="realm-bg-image" data-parallax-speed="0.15">
+                </div>
+                <div class="realm-content">
+                    <div class="realm-info">
+                        <span class="realm-tag slide-left">Concept Phase</span>
+                        <h2 class="realm-title slide-left stagger-1">Hồng Bàng<br>Kỷ Nguyên</h2>
+                        <p class="realm-desc slide-left stagger-2">Quay về thuở hồng hoang khai thiên lập địa, nơi Lạc Long Quân và Âu Cơ kiến tạo nền móng bách tộc Việt. Sinh tồn giữa thế giới nguyên sơ đầy hiểm nguy và huyền bí.</p>
+                        <div class="realm-meta slide-left stagger-3">
+                            <div class="realm-meta-item">
+                                Genre
+                                <span>Open World Survival</span>
+                            </div>
+                            <div class="realm-meta-item">
+                                Origin
+                                <span>Thần thoại Việt cổ</span>
+                            </div>
+                        </div>
+                        <a href="hongbang.html" class="btn-line magnetic-btn slide-left stagger-4">Khám Phá Thế Giới</a>
+                    </div>
+                    <div class="realm-artwork scale-in">
+                        <img src="assets/viet_myth_2.png" alt="Hồng Bàng Kỷ Nguyên Artwork">
+                        <div class="corner-ornament top-left"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament top-right"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament bottom-left"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament bottom-right"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- REALM 4: Phong Thần Ma Luân — Mystic Void -->
+            <div class="realm realm-mystic" data-realm="mystic">
+                <div class="realm-bg">
+                    <img src="assets/china_myth_2.png" alt="Phong Thần Ma Luân" class="realm-bg-image" data-parallax-speed="0.15">
+                </div>
+                <div class="realm-content">
+                    <div class="realm-info">
+                        <span class="realm-tag slide-left">Prototyping</span>
+                        <h2 class="realm-title slide-left stagger-1">Phong Thần<br>Ma Luân</h2>
+                        <p class="realm-desc slide-left stagger-2">Chiến tranh phong thần tái hiện qua lăng kính chiến thuật đỉnh cao. Chỉ huy đội quân tiên giới, yêu giới và nhân giới trong cuộc tranh đoạt quyền lực vũ trụ chưa từng có.</p>
+                        <div class="realm-meta slide-left stagger-3">
+                            <div class="realm-meta-item">
+                                Genre
+                                <span>Strategy RPG</span>
+                            </div>
+                            <div class="realm-meta-item">
+                                Origin
+                                <span>Phong Thần Bảng</span>
+                            </div>
+                        </div>
+                        <a href="phongthan.html" class="btn-line magnetic-btn slide-left stagger-4">Khám Phá Thế Giới</a>
+                    </div>
+                    <div class="realm-artwork scale-in">
+                        <img src="assets/china_myth_2.png" alt="Phong Thần Ma Luân Artwork">
+                        <div class="corner-ornament top-left"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament top-right"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament bottom-left"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                        <div class="corner-ornament bottom-right"><svg viewBox="0 0 80 80"><path d="M0 0 L30 0 L30 3 L3 3 L3 30 L0 30 Z" /><circle cx="15" cy="15" r="2"/></svg></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             TECHNOLOGY & ENGINE
+             ============================================================ -->
+        <section class="tech-section" id="tech">
+            <div class="container">
+                <div class="tech-grid">
+                    <div class="tech-content">
+                        <h2 class="section-title fade-in">Công Nghệ &<br>Kỹ Thuật Số</h2>
+                        <p class="lead-text fade-in stagger-1">Tại Cổ Tích, chúng tôi đầu tư mạnh mẽ vào các công nghệ làm game tiên tiến nhất. Mọi chi tiết nhỏ nhất trong thế giới của chúng tôi đều sống động đến lạ thường.</p>
+                        <ul class="tech-features fade-in stagger-2">
+                            <li>Unreal Engine 5 — Phô diễn sức mạnh Nanite & Lumen</li>
+                            <li>High-end Motion Capture Studio tại chi nhánh chính</li>
+                            <li>Trí tuệ nhân tạo (AI) ứng dụng sâu vào Behavior Trees</li>
+                            <li>Quy trình phát triển Agile tối ưu hiệu suất sáng tạo</li>
+                            <li>Procedural World Generation cho open world quy mô lớn</li>
+                        </ul>
+                    </div>
+                    <div class="tech-image scale-in">
+                        <img src="assets/detail_bg.png" alt="Studio Technology">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             CAREERS CTA
+             ============================================================ -->
+        <section class="career-cta" id="careers">
+            <div class="career-box">
+                <div class="ornament-divider fade-in">
+                    <span class="line"></span>
+                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 2 L26 14 L38 16 L29 25 L31 38 L20 32 L9 38 L11 25 L2 16 L14 14 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+                        <circle cx="20" cy="20" r="4"/>
+                    </svg>
+                    <span class="line"></span>
+                </div>
+                <h2 class="cta-title fade-in">Gia Nhập Đội Ngũ<br>Huyền Thoại</h2>
+                <p class="cta-desc fade-in stagger-1">Cổ Tích Studio luôn rộng mở đón chào những bộ óc sáng tạo mãnh liệt, những cá nhân không ngại dấn thân và phá vỡ các giới hạn an toàn để định hình lại tương lai của ngành công nghiệp Game toàn cầu.</p>
+                <div class="career-actions fade-in stagger-2">
+                    <a href="#" class="btn-solid magnetic-btn">VỊ TRÍ ĐANG TUYỂN</a>
+                    <a href="#" class="btn-ghost magnetic-btn">GỬI PORTFOLIO TRỰC TIẾP</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="premium-footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer-top">
+                    <h2 class="footer-brand">CỔ TÍCH STUDIO</h2>
+                    <div class="footer-socials">
+                        <a href="#">LINKEDIN</a>
+                        <a href="#">ARTSTATION</a>
+                        <a href="#">X / TWITTER</a>
+                        <a href="#">YOUTUBE</a>
+                    </div>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-bottom">
+                    <p>DISTRICT 1, HO CHI MINH CITY, VIETNAM</p>
+                    <p>CAREERS@COTICHSTUDIO.COM</p>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 CO TICH STUDIO. ALL RIGHTS RESERVED.</p>
+                    <p>WE CRAFT WORLDS.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
