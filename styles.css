@@ -576,6 +576,7 @@ h1, h2, h3, h4 { font-weight: normal; }
     width: 100%; height: 100%;
     z-index: 1;
     transition: opacity 1s;
+    pointer-events: none;
 }
 .realm-bg::before {
     content: '';
@@ -583,6 +584,7 @@ h1, h2, h3, h4 { font-weight: normal; }
     top: 0; left: 0;
     width: 100%; height: 100%;
     z-index: 2;
+    pointer-events: none;
 }
 
 /* Mountain Realm */
@@ -707,6 +709,9 @@ h1, h2, h3, h4 { font-weight: normal; }
     height: 550px;
     overflow: hidden;
     border: 1px solid rgba(197, 160, 89, 0.1);
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 .realm-artwork img {
     width: 100%; height: 100%;
@@ -1190,6 +1195,9 @@ h1, h2, h3, h4 { font-weight: normal; }
     overflow: hidden;
     border: 1px solid rgba(255,255,255,0.04);
     transition: border-color 0.4s;
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 .related-card:hover { border-color: rgba(197, 160, 89, 0.15); }
 .related-card img {
